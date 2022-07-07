@@ -18,7 +18,7 @@ function App() {
   fetch('/posts')
   .then(res=>res.json())
   .then(data=>setPosts(data))
-  .then(data=>console.log(data))
+ 
 }
 useEffect(()=>{
   postsData()
@@ -29,7 +29,7 @@ useEffect(()=>{
 <Route path="/"element={<Login/>}/>
 <Route path="/register"element={<Register/>}/>
 <Route path="/home"element={<Home data={posts}/>}/>
-<Route path="/addpost"element={<Add/>}/>
+<Route path="/addpost"element={<Add postsData={postsData}/>}/>
 
 </Routes>
    </>

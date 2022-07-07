@@ -1,13 +1,13 @@
 import React from "react";
 
 import "./Formregister.css"
-const Formregister = () => {
+const Formregister = ({registerPerson}) => {
 
 
 
   return ( 
     <div className="container">
-    <form>
+    <form onSubmit={registerPerson}>
       <h3>Registration form </h3>
       <label htmlFor="">Enter Your's email</label>
       <br />
@@ -15,8 +15,7 @@ const Formregister = () => {
       <br />
       <label>Enter Your's password</label>
       <br />
-      <input type="password" name="password" />
-     
+      <input type="password" name="password" /> 
       <input className="submitBtn" type="submit" value="Submit" />
     </form>
     </div>

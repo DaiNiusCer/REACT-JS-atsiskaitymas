@@ -1,10 +1,10 @@
 import React from "react";
 import "./Formregister.css";
 
-const Formadd = () => {
+const Formadd = ({addPost}) => {
   return ( 
     <div className="container">
-    <form>
+    <form onSubmit={addPost}>
       <h3>Add a new post</h3>
       <label htmlFor="">Enter Your's title</label>
       <br />
