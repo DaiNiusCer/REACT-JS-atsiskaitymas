@@ -1,0 +1,20 @@
+a{
+  text-decoration: none;
+  width: 80px;
+  height: 40px;
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+}
+a:hover{
+  color: rgb(74, 168, 20);
+}
+.logo{
+  height: 60px;
+  border-radius: 50%;
+}
+
+.navBtn{
+  margin-left: 10px;
+  margin-right: 10px;
+}
