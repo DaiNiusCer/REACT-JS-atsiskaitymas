@@ -4,8 +4,9 @@ import Formregister from "../components/Formregister";
 import Header from "../components/Header";
 import { useNavigate } from "react-router-dom";
 
+
 const Register = () => {
-const navigate=useNavigate()
+  const navigate=useNavigate()
  const registerPerson=(e)=>{
      e.preventDefault()
      const email=e.target.elements.email.value;

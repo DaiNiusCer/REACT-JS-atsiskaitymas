@@ -1,9 +1,11 @@
 import express from 'express';
 import fetch from 'node-fetch';
 import bcrypt from 'bcrypt'
+import cookieParser from 'cookie-parser';
 
 const app=express();
 app.use(express.json());
+app.use(cookieParser());
 
 
 
@@ -51,6 +53,11 @@ app.post('/users',async function(req,res){
   
 })
 //Registracijos POST pabaiga
+
+//Login POST pradzia
+
+
+//Login POST pabaiga
 //Login pradzia
 
 //Login pabaiga
