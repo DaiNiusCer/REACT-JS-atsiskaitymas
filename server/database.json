@@ -24,8 +24,12 @@
       "id": "5",
       "email": "example5@example5.com",
       "password": "123456"
+    },
+    {
+      "email": "barakuda@barakuda.com",
+      "password": "$2b$10$Xc1SvwDImoIQRRfzbYpZ1us8M7ZFkICrAJclFZr03TPt68hYLkR0.",
+      "id": "sFuIt1T"
     }
-   
   ],
   "posts": [
     {

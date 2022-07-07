@@ -41,7 +41,7 @@ app.post('/posts',async function(req,res){
 //Validacija pradzia
 
 //Registracijos POST pradzia
-app.post('/users',async function(req,res){
+app.post('/usersregister',async function(req,res){
   const encryptedPass =await bcrypt.hash(req.body.password, 10)
   const users=await 
   fetch(' http://localhost:8080/users',{
