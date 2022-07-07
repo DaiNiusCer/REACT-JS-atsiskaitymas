@@ -1,0 +1,28 @@
+.allPosts{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap:25px;
+  margin-top: 50px;
+ 
+}
+.postCard{
+  border: 1px solid black;
+  height: 750px;
+  width: 500px;
+}
+p{
+  text-align: justify;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.id{
+  margin-left: 10px;
+}
+
+.title{
+  margin-left: 10px;
+  font-size: 36px;
+}

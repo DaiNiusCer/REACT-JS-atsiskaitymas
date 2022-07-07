@@ -18,9 +18,7 @@ const Header=(props)=> {
   const handleMenu = (event) => {
     setAnchorEl(event.currentTarget);
   };
-  const handleMenuClick = () => {
-    setAnchorEl(null);
-  };
+ 
   return (
     <Box sx={{ flexGrow: 1, backgroundColor:"black" }}>
       <AppBar position="static" sx={{backgroundColor:"rgb(220, 248, 167)", boxShadow:" 6px 2px 15px -2px rgba(255,252,247,0.68)"}} >

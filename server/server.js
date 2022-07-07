@@ -12,7 +12,19 @@ app.use(express.urlencoded({
 const PORT=5000;
 //CRUD operacijos
 
+//Visu irasu pasiemimas
+app.get('/posts', async function(req, res){
+  const posts=await fetch('http://localhost:8080/posts').then(data=>data.json())
+  res.json(posts)
+ });
 
+ app.get('/users', async function(req, res){
+  const posts=await fetch('http://localhost:8080/users').then(data=>data.json())
+  res.json(posts)
+ });
+
+
+//Visu irasu pasiemimas
 
 
 

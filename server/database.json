@@ -1,0 +1,56 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "example@example.com",
+      "password": "123456"
+    },
+    {
+      "id": "2",
+      "email": "example2@example2.com",
+      "password": "123456"
+    },
+    {
+      "id": "3",
+      "email": "example3@example3.com",
+      "password": "123456"
+    },
+    {
+      "id": "4",
+      "email": "example4@example4.com",
+      "password": "123456"
+    },
+    {
+      "id": "5",
+      "email": "example5@example5.com",
+      "password": "123456"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "title": "Dog",
+      "description": "The dog or domestic dog (Canis familiaris or Canis lupus familiaris) is a domesticated descendant of the wolf, and is characterized by an upturning tail."
+    },
+    {
+      "id": "2",
+      "title": "Cat",
+      "description": "The cat is similar in anatomy to the other felid species: it has a strong flexible body, quick reflexes, sharp teeth and retractable claws adapted to killing small prey. Its night vision and sense of smell are well developed. Cat communication includes vocalizations like meowing, purring, trilling, hissing, growling and grunting as well as cat-specific body language. A predator that is most active at dawn and dusk (crepuscular), the cat is a solitary hunter but a social species."
+    },
+    {
+      "id": "3",
+      "title": "Horse",
+      "description": "Horses and humans have an ancient relationship. Asian nomads probably domesticated the first horses some 4,000 years ago, and the animals remained essential to many human societies until the advent of the engine. Horses still hold a place of honor in many cultures, often linked to heroic exploits in war."
+    },
+    {
+      "id": "4",
+      "title": "Fox",
+      "description": "Foxes are small to medium-sized, omnivorous mammals belonging to several genera of the family Canidae. They have a flattened skull, upright triangular ears, a pointed, slightly upturned snout, and a long bushy tail (or brush)."
+    },
+    {
+      "id": "5",
+      "title": "Blue whale",
+      "description": "The blue whale (Balaenoptera musculus) is a marine mammal and a baleen whale. Reaching a maximum confirmed length of 29.9 meters (98 ft) and weighing up to 199 metric tons (196 long tons; 219 short tons), it is the largest animal known to have ever existed. The blue whale's long and slender body can be of various shades of greyish-blue dorsally and somewhat lighter underneath. Four subspecies are recognized: B. m. musculus in the North Atlantic and North Pacific, B. m. intermedia in the Southern Ocean, B. m. brevicauda (the pygmy blue whale) in the Indian Ocean and South Pacific Ocean, B. m. indica in the Northern Indian Ocean. There is also a population in the waters off Chile that may constitute a fifth subspecies."
+    }
+  ]
+}
