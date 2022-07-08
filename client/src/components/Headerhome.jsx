@@ -10,10 +10,17 @@ import Menu from '@mui/material/Menu';
 import {Link} from 'react-router-dom';
 import HomeIcon from '@mui/icons-material/Home';
 import AddCommentIcon from '@mui/icons-material/AddComment';
+import { useNavigate } from 'react-router-dom';
 
 import "./Header.css" 
 
 const Headerhome=(props)=> {
+  const navigate=useNavigate()
+
+  const logout=()=>{
+    localStorage.removeItem('yoursToken');
+    navigate('/');
+  }
    const [anchorEl, setAnchorEl] = React.useState(null);
   const handleMenu = (event) => {
     setAnchorEl(event.currentTarget);
@@ -62,8 +69,8 @@ const Headerhome=(props)=> {
                 onClose={()=>setAnchorEl(null)}
               >
                 
-                <MenuItem><Link to="/contacts">Contacts</Link></MenuItem>
-                <MenuItem><Link to="/about">About</Link></MenuItem>
+                <MenuItem onClick={()=>logout()}><Link to="/">Logout</Link></MenuItem>
+               
               
               </Menu>
             </div>

@@ -1,7 +1,9 @@
 import React from "react";
 import "./Formregister.css";
 
+
 const Formadd = ({addPost}) => {
+  
   return ( 
     <div className="container">
     <form onSubmit={addPost}>

@@ -1,6 +1,6 @@
 {
   "users": [
-       {
+    {
       "email": "d.cerkauskas@gmail.com",
       "password": "$2b$10$TXJJHeLKShnahBLN8X.Zh.U3Gs9eGW6b.R9.f3VCvTgA.xltINAdi",
       "id": "NLxUn7J"
@@ -9,6 +9,11 @@
       "email": "example@example.com",
       "password": "$2b$10$kVkvtXxNFkN31alwePyuF.ZGao1nBASixWaUtDD.GQ9Dt7LkC2eKW",
       "id": "NrqG5vP"
+    },
+    {
+      "email": "example1@example1.com",
+      "password": "$2b$10$aFbGM0zWXVun2VNv1D3fIeIfFoO9kSoIqrTIt4nHYlLIkJgTl3fGK",
+      "id": "WP6S8li"
     }
   ],
   "posts": [
@@ -36,6 +41,11 @@
       "id": "5",
       "title": "Blue whale",
       "description": "The blue whale (Balaenoptera musculus) is a marine mammal and a baleen whale. Reaching a maximum confirmed length of 29.9 meters (98 ft) and weighing up to 199 metric tons (196 long tons; 219 short tons), it is the largest animal known to have ever existed. The blue whale's long and slender body can be of various shades of greyish-blue dorsally and somewhat lighter underneath. Four subspecies are recognized: B. m. musculus in the North Atlantic and North Pacific, B. m. intermedia in the Southern Ocean, B. m. brevicauda (the pygmy blue whale) in the Indian Ocean and South Pacific Ocean, B. m. indica in the Northern Indian Ocean. There is also a population in the waters off Chile that may constitute a fifth subspecies."
+    },
+    {
+      "title": "Orca",
+      "description": "Orcas have a diverse diet, although individual populations often specialize in particular types of prey. Some feed exclusively on fish, while others hunt marine mammals such as seals and other species of dolphin. They have been known to attack baleen whale calves, and even adult whales. Orcas are apex predators, as they have no natural predators. They are highly social; some populations are composed of very stable matrilineal family groups (pods) which are the most stable of any animal species. Their sophisticated hunting techniques and vocal behaviours, which are often specific to a particular group and passed across generations, have been described as manifestations of animal culture.",
+      "id": "J_nedMf"
     }
   ]
 }

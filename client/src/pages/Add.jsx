@@ -1,9 +1,28 @@
 import React from "react";
 import Headerhome from "../components/Headerhome";
 import Formadd from "../components/Formadd";
+import { useEffect} from "react";
+import { useNavigate } from "react-router-dom";
 
 const Add = ({postsData}) => {
-
+  const navigate=useNavigate()
+  useEffect(() => {
+    const token = localStorage.getItem('yoursToken');
+    fetch('/verify', {
+    headers: {
+    'Authorization': `Bearer ${token}`
+    }
+    })
+    .then(res => res.json())
+    .then(res => {
+    if (res.err) {
+    localStorage.removeItem('yoursToken');
+    return navigate('/');
+    }
+    }
+    )
+    }, 
+    [navigate])
   const addPost=(e)=>{
   e.preventDefault()
  const title=e.target.elements.title.value;
