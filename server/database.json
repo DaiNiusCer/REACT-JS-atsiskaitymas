@@ -24,6 +24,11 @@
       "id": "5",
       "email": "example5@example5.com",
       "password": "123456"
+    },
+    {
+      "email": "d.cerkauskas@gmail.com",
+      "password": "$2b$10$JVVZGFMJqfY.lTdJxW470OOgX792HIsOdswizo9rg4OjNj7Lx0JCW",
+      "id": "J2dDjms"
     }
   ],
   "posts": [

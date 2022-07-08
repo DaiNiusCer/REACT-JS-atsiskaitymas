@@ -9,16 +9,14 @@ const Login = () => {
 
 const loginPerson=(e)=>{
 e.preventDefault()
-const email=e.target.elements.email.value;
-const password=e.target.elements.password.value
-  fetch('/users',{
+  fetch('/',{
     method:'POST',
     headers:{
       'Content-Type':'application/json'
     },
     body:JSON.stringify({
-      email:email,
-      password:password
+      email:e.target.email.value,
+      password:e.target.password.value
     })
   })
   .then(res=>res.json())

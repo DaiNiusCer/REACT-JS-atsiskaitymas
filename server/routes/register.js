@@ -1,5 +1,6 @@
 import express from 'express';
 import fetch from 'node-fetch';
+import bcrypt from 'bcrypt';
 
 const router=express.Router()
 

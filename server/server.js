@@ -2,6 +2,7 @@ import express from 'express';
 import Posts from './routes/postsget.js';
 import Postsadd from './routes/postsadd.js';
 import Register from './routes/register.js';
+import Login from './routes/login.js'
 import cookieParser from 'cookie-parser';
 
 const app=express();
@@ -21,6 +22,7 @@ const PORT=5000;
 app.use('/posts',Posts);
 app.use('/posts',Postsadd);
 app.use('/users',Register);
+app.use('/',Login)
 //Routes
 
 

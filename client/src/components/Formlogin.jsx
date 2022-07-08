@@ -7,11 +7,11 @@ const Formlogin = ({loginPerson}) => {
       <h3>Login form </h3>
       <label htmlFor="">Enter Your's email</label>
       <br />
-      <input type="email" />
+      <input type="email" name='email'/>
       <br />
       <label>Provide Your's password</label>
       <br />
-      <input type="password" />
+      <input type="password" name='password' />
       <input className="submitBtn" type="submit" value="Submit" />
     </form>
     </div>
