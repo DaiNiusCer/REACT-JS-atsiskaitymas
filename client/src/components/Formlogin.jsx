@@ -1,9 +1,9 @@
 import React from "react";
 import "./Formregister.css"
-const Formlogin = () => {
+const Formlogin = ({loginPerson}) => {
   return ( 
     <div className="container">
-    <form>
+    <form onSubmit={loginPerson}>
       <h3>Login form </h3>
       <label htmlFor="">Enter Your's email</label>
       <br />

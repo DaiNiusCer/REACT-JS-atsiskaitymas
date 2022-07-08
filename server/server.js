@@ -1,6 +1,7 @@
 import express from 'express';
-import fetch from 'node-fetch';
-import bcrypt from 'bcrypt'
+import Posts from './routes/postsget.js';
+import Postsadd from './routes/postsadd.js';
+import Register from './routes/register.js';
 import cookieParser from 'cookie-parser';
 
 const app=express();
@@ -16,53 +17,15 @@ app.use(express.urlencoded({
 const PORT=5000;
 //CRUD operacijos
 
-//Visu irasu pasiemimas pradzia
-app.get('/posts', async function(req, res){
-  const posts=await fetch('http://localhost:8080/posts').then(data=>data.json())
-  res.json(posts)
- });
-//Visu irasu pasiemimas pabaiga
-
-//Naujo iraso pridejimas pradzia
-app.post('/posts',async function(req,res){
-  const addposts=await 
-  fetch(' http://localhost:8080/posts',{
-    method:'POST',
-    headers:{"Content-Type":"application/json"},
-    body:JSON.stringify({title:req.body.title,description:req.body.description})
-  })
-  res.send(addposts)
-  
-})
-//Naujo iraso pridejimas pabaiga
-
-//CRUD operacijos
-
-//Validacija pradzia
-
-//Registracijos POST pradzia
-app.post('/usersregister',async function(req,res){
-  const encryptedPass =await bcrypt.hash(req.body.password, 10)
-  const users=await 
-  fetch(' http://localhost:8080/users',{
-    method:'POST',
-    headers:{"Content-Type":"application/json"},
-    body:JSON.stringify({email:req.body.email,password:encryptedPass})
-  })
-  res.send(users)
-  
-})
-//Registracijos POST pabaiga
-
-//Login POST pradzia
+//Routes
+app.use('/posts',Posts);
+app.use('/posts',Postsadd);
+app.use('/users',Register);
+//Routes
 
 
-//Login POST pabaiga
-//Login pradzia
 
-//Login pabaiga
 
-//Validacija pabaiga
 
 
 
