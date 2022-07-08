@@ -1,34 +1,14 @@
 {
   "users": [
-    {
-      "id": "1",
-      "email": "example@example.com",
-      "password": "123456"
-    },
-    {
-      "id": "2",
-      "email": "example2@example2.com",
-      "password": "123456"
-    },
-    {
-      "id": "3",
-      "email": "example3@example3.com",
-      "password": "123456"
-    },
-    {
-      "id": "4",
-      "email": "example4@example4.com",
-      "password": "123456"
-    },
-    {
-      "id": "5",
-      "email": "example5@example5.com",
-      "password": "123456"
-    },
-    {
+       {
       "email": "d.cerkauskas@gmail.com",
-      "password": "$2b$10$JVVZGFMJqfY.lTdJxW470OOgX792HIsOdswizo9rg4OjNj7Lx0JCW",
-      "id": "J2dDjms"
+      "password": "$2b$10$TXJJHeLKShnahBLN8X.Zh.U3Gs9eGW6b.R9.f3VCvTgA.xltINAdi",
+      "id": "NLxUn7J"
+    },
+    {
+      "email": "example@example.com",
+      "password": "$2b$10$kVkvtXxNFkN31alwePyuF.ZGao1nBASixWaUtDD.GQ9Dt7LkC2eKW",
+      "id": "NrqG5vP"
     }
   ],
   "posts": [

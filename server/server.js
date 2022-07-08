@@ -4,6 +4,7 @@ import Postsadd from './routes/postsadd.js';
 import Register from './routes/register.js';
 import Login from './routes/login.js'
 import cookieParser from 'cookie-parser';
+import Verify from  './routes/verify.js'
 
 const app=express();
 app.use(express.json());
@@ -11,27 +12,19 @@ app.use(cookieParser());
 
 
 
-app.use(express.urlencoded({
-  extended:false
-}));
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 
 const PORT=5000;
 //CRUD operacijos
 
 //Routes
-app.use('/posts',Posts);
-app.use('/posts',Postsadd);
-app.use('/users',Register);
-app.use('/',Login)
+app.use('/allposts',Posts);
+app.use('/addposts',Postsadd);
+app.use('/register',Register);
+app.use('/login',Login);
+app.use('/verify',Verify)
 //Routes
-
-
-
-
-
-
-
-
 
 
 //Serverio paleidimas

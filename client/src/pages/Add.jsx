@@ -8,7 +8,7 @@ const Add = ({postsData}) => {
   e.preventDefault()
  const title=e.target.elements.title.value;
  const description=e.target.elements.description.value;
-fetch(' /posts',{
+fetch(' /addposts',{
   method:'POST',
   headers:{"Content-Type":"application/json"},
   body:JSON.stringify({

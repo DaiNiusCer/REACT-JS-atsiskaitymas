@@ -11,7 +11,7 @@ const Register = () => {
      e.preventDefault()
      const email=e.target.elements.email.value;
      const password=e.target.elements.password.value;
-     fetch(' /users',{
+     fetch(' /register',{
       method:'POST',
       headers:{"Content-Type":"application/json"},
       body:JSON.stringify({

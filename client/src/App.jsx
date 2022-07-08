@@ -15,7 +15,7 @@ function App() {
 
  //Posts fetch
  const postsData=()=>{
-  fetch('/posts')
+  fetch('/allposts')
   .then(res=>res.json())
   .then(data=>setPosts(data))
  

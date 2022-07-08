@@ -1,0 +1,6 @@
+Projekto paleidimas:
+ 1 Modulių parsiuntimas: npm i;
+ 2 JSON serverio paleidimas: server folderyje atsidarius konsolę paleisti komandą: npm run db;
+ 3 Back End paleidimas: server folderyje atsidarius 2 konsolę paleisti komandą:npm run dev;
+ 4 React paleidmas: client folderyje atsidarius konsolę paleisti komandą: npm start;
+ 5 ENJOY!

@@ -5,18 +5,22 @@ import { useNavigate } from "react-router-dom";
 
 
 const Login = () => {
-  const navigate=useNavigate()
+const navigate=useNavigate()
 
 const loginPerson=(e)=>{
+const email=e.target.elements.email.value;
+const password=e.target.elements.password.value;
+console.log(email,password)
+
 e.preventDefault()
-  fetch('/',{
+  fetch('/login',{
     method:'POST',
     headers:{
       'Content-Type':'application/json'
     },
     body:JSON.stringify({
-      email:e.target.email.value,
-      password:e.target.password.value
+      email:e.target.elements.email.value,
+      password:e.target.elements.password.value
     })
   })
   .then(res=>res.json())
